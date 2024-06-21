@@ -38,6 +38,68 @@ TITLE = "Hybrid RAG: Chat UI"
 OUTPUT_TOKENS = 250
 MAX_DOCS = 5
 
+
+
+# Edit data below for specific demos ----
+EXAMPLE_TITLES = [
+                     "### Technical Support",
+                     "### Sales",
+                     "### Marketing",
+                     "### Financial Analysis",
+                     "### Coding Assistant",
+                 ]
+EXAMPLES = [
+
+###TECH SUPPPORT
+
+               [
+                   "Please document the process  of a cluster aware update for Dell VXrail.",
+                   "Can you tell me more about Dell PowerEdge Carbonblack security features?",
+                   "How do I configure disaster recovery using Dell Powerflex for my on-premises data center?",
+
+               ],
+
+### SALES
+
+               [
+                   "Sketch an account plan that positions Dell Technologies data protection as the customer's best choice.",
+                   "Create a comparison list of the pro's and con's between Dell Technologies Powerflex storage solutions against HPE storage solutions.",
+                   "What are the key steps in designing a secure and scalable on-premises solution for GenAI workloads with Dell?",
+
+               ],
+
+### MARKETING
+
+				[ 
+
+					"Create an ad for Dell Technologies PowerEdge servers with an interesting headline and product description. Provide your answer first in English, and then translate the entire response into French language",
+                   "Create 3 engaging tweets highlighting the key advantages of using Dell Technologies solutions for Generative AI.",
+				   "Outline a fun social media campaign that takes followers on a virtual world tour of Dell's global sustainability efforts using engaging storytelling."
+               ],
+
+### FINANCIAL ANALYSIS
+
+               [
+                   "Based on NVIDIA's SEC filings explain why they are a strong partner for Dell Technologies and are well positioned to support organizations in their Generative AI journeys.",
+                   "Summarize the key financial takeaways from Dell’s latest SEC filings, focusing on investment opportunities and risk factors.",
+				   "Please provide a horizontal financial analysis for Dell Technologies."
+               ],
+
+
+### CODING ASSISTANT
+
+               [
+                   "What is an example of Terraform code for Dell PowerEdge servers?",
+                   "Provide an example of a Dockerfile for a Python-based machine learning project that includes installing PyTorch and NumPy.",
+                   "How do I use Python's Pandas library to read a CSV file and filter rows based on a column's value?",
+
+               ]
+
+
+           ]
+# ----------------------------------------
+
+
 ### Load in CSS here for components that need custom styling. ###
 
 _LOCAL_CSS = """
