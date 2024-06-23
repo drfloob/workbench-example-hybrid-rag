@@ -421,6 +421,7 @@ def build_page(client: chat_client.ChatClient) -> gr.Blocks:
     Returns:
         page (gr.Blocks): A Gradio page.
     """
+
     kui_theme, kui_styles = assets.load_theme("kaizen")
 
     with gr.Blocks(title=TITLE, theme=kui_theme, css=kui_styles + _LOCAL_CSS) as page:
@@ -674,6 +675,24 @@ def build_page(client: chat_client.ChatClient) -> gr.Blocks:
             with gr.Column(scale=1, min_width=100, visible=False) as hidden_settings_column:
                 show_settings = gr.Button(value="< Expand", size="sm")
 
+
+####################################	    
+        def example_click(user_input):
+            return user_input
+
+        title_counter = 0
+        for list_entry in EXAMPLES:
+            if len(EXAMPLE_TITLES[title_counter]) > 0:
+                gr.Markdown(EXAMPLE_TITLES[title_counter])
+            with gr.Row():
+                for entry in list_entry:
+                    button = gr.Button(entry)
+                    button.click(fn=example_click, inputs=button, outputs=msg)
+                title_counter += 1
+####################################	    
+
+
+	    
         def _toggle_gated(models: List[str]) -> Dict[gr.component, Dict[Any, Any]]:
             """" Event listener to toggle local models displayed to the user. """
             if len(models) == 0:
