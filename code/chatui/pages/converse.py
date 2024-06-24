@@ -34,8 +34,8 @@ from chatui import assets, chat_client
 
 _LOGGER = logging.getLogger(__name__)
 PATH = "/"
-TITLE = "Hybrid RAG: Chat UI"
-OUTPUT_TOKENS = 250
+TITLE = "Content Assistant"
+OUTPUT_TOKENS = 4096
 MAX_DOCS = 5
 
 
