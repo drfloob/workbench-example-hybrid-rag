@@ -34,7 +34,7 @@ from chatui import assets, chat_client
 
 _LOGGER = logging.getLogger(__name__)
 PATH = "/"
-TITLE = "Content Assistant"
+TITLE = "Dell Content Assistant"
 OUTPUT_TOKENS = 4096
 MAX_DOCS = 5
 
@@ -61,18 +61,25 @@ EXAMPLES = [
 
                [
                    "What are the key features of PowerScale’s data protection, resiliency and security capabilities? ",
-                   "What are ways that PowerScale can scale and manage growing workloads?",
+                   "How does PowerScale enable scaling data centers in an AI era where data is growing exponentially?",
                    "How does PowerScale offer enhanced data-lake capabilities with native S3 protocol?",
+		   "Create a list of the latest innovations introduced by Dell PowerScale, divide them into two groups, hardware and software.",
+		   "How does PowerScale address data mobility and cloud file storage integration?",
+		   "How can does PowerScale allow me to upgrade my data center non-disruptively, to keep pace with new hardware and software innovation?",
+		   "How do PowerScale’s latest all-flash nodes accelerate the model training and checkpointing phases of the AI lifecycle?",
+		   "How does PowerScale maximize data efficiency and per watt performance?",
+
+		       
 
                ],
 
 ### PowerStore
 
-				[ 
+		[ 
 
-					"What are the latest hardware and software enhancements in PowerStore's newest release?",
+		   "What are the latest hardware and software enhancements in PowerStore's newest release?",
                    "What are the key features of PowerStore's data protection and security capabilities?",
-				   "How has the PowerStore management interface been improved in the latest version?"
+		   "How has the PowerStore management interface been improved in the latest version?"
                ],
 
 
