@@ -61,12 +61,12 @@ EXAMPLES = [
 
                [
                    "What are the key features of PowerScale’s data protection, resiliency and security capabilities? ",
-                   "How does PowerScale enable scaling data centers in an AI era where data is growing exponentially?",
+#                   "How does PowerScale enable scaling data centers in an AI era where data is growing exponentially?",
                    "How does PowerScale offer enhanced data-lake capabilities with native S3 protocol?",
-		   "Create a list of the latest innovations introduced by Dell PowerScale, divide them into two groups, hardware and software.",
+#		   "Create a list of the latest innovations introduced by Dell PowerScale, divide them into two groups, hardware and software.",
 		   "How does PowerScale address data mobility and cloud file storage integration?",
 		   "How can does PowerScale allow me to upgrade my data center non-disruptively, to keep pace with new hardware and software innovation?",
-		   "How do PowerScale’s latest all-flash nodes accelerate the model training and checkpointing phases of the AI lifecycle?",
+#		   "How do PowerScale’s latest all-flash nodes accelerate the model training and checkpointing phases of the AI lifecycle?",
 		   "How does PowerScale maximize data efficiency and per watt performance?",
 
 		       
@@ -79,7 +79,11 @@ EXAMPLES = [
 
 		   "What are the latest hardware and software enhancements in PowerStore's newest release?",
                    "What are the key features of PowerStore's data protection and security capabilities?",
-		   "How has the PowerStore management interface been improved in the latest version?"
+		   "What are ways for administrators to understand data reduction in PowerStore's latest release?",
+		   "How does PowerStore provide multicloud connectivity?",
+		   "How does Powerstore's data reduction technology work, and what data reduction ratios can users expect?",
+			
+		
                ],
 
 
