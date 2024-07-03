@@ -53,7 +53,7 @@ EXAMPLES = [
                [
                    "What are the key components of the Dell Reference Design for generative AI model training?",
                    "What were the key validation findings for the Dell Reference Design using the Llama 3 model?",
-                   "What are some of the benefits of Dell APEX Redhat Openshift for Generative AI?",
+                   "What are the steps involved in installing the Dell APEX Redhat Openshift for Generative AI platform?",
 
                ],
 
