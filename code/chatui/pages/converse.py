@@ -53,7 +53,7 @@ EXAMPLES = [
                [
                    "What are the key components of the Dell Reference Design for generative AI model training?",
                    "What were the key validation findings for the Dell Reference Design using the Llama 3 model?",
-                   "How is the network architecture designed for LLM training in the Dell Reference Design?",
+                   "What are the specific hardware and software components for LLM training in the Dell Reference Design?",
 
                ],
 
