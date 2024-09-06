@@ -67,7 +67,7 @@ EXAMPLES = [
                    "How does PowerScale offer enhanced data-lake capabilities with native S3 protocol?",
 #		   "Create a list of the latest innovations introduced by Dell PowerScale, divide them into two groups, hardware and software.",
 		   "How does PowerScale address data mobility and cloud file storage integration?",
-		   "How can does PowerScale allow me to upgrade my data center non-disruptively, to keep pace with new hardware and software innovation?",
+		   "How does PowerScale allow me to upgrade my data center non-disruptively, to keep pace with new hardware and software innovation?",
 #		   "How do PowerScale’s latest all-flash nodes accelerate the model training and checkpointing phases of the AI lifecycle?",
 		   "How does PowerScale maximize data efficiency and per watt performance?",
 
